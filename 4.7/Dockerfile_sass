@@ -1,0 +1,5 @@
+# to build 3hdeng/node-sass:4.7
+
+FROM 3hdeng/nodejs:4.7
+RUN npm install -g node-sass
+CMD [ "node" ]
